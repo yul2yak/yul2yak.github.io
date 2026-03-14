@@ -14,6 +14,9 @@ const sort = Astro.url.searchParams.get('sort') || 'recent';
 let sortedPosts = posts;
 if (sort === 'title') {
 	sortedPosts = posts.sort((a, b) => a.data.title.localeCompare(b.data.title));
+} else if (sort === 'popular') {
+	// 임시: 랜덤 정렬 (나중에 조회수로 변경)
+	sortedPosts = posts.sort(() => Math.random() - 0.5);
 } else {
 	sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 }
@@ -164,6 +167,7 @@ const view = Astro.url.searchParams.get('view') || 'card';
 						<select id="sort" onchange="changeSort(this.value)">
 							<option value="recent" {sort === 'recent' ? 'selected' : ''}>최신순</option>
 							<option value="title" {sort === 'title' ? 'selected' : ''}>제목순</option>
+							<option value="popular" {sort === 'popular' ? 'selected' : ''}>인기순</option>
 						</select>
 					</div>
 					<div>

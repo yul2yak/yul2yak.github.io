@@ -205,7 +205,7 @@ const view = Astro.url.searchParams.get('view') || 'card';
 												<p class="date">
 													<FormattedDate date={post.data.pubDate} />
 												</p>
-												<p class="description">{post.data.description}</p>
+												<p class="description">{post.data.excerpt || post.data.description}</p>
 											</div>
 										</div>
 									</li>

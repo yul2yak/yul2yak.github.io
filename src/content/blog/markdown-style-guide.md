@@ -1,6 +1,7 @@
 ---
 title: 'Markdown 스타일 가이드'
 description: 'Astro에서 Markdown 콘텐츠를 작성할 때 사용할 수 있는 기본 Markdown 구문 샘플입니다.'
+excerpt: 'Markdown을 사용하여 텍스트를 서식 지정하는 방법을 배워보세요. 제목, 단락, 이미지, 인용구 등 다양한 요소를 다룹니다.'
 pubDate: 'Mar 14 2026'
 heroImage: '../../assets/Markdown-mark.png'
 ---

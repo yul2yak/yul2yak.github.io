@@ -1,6 +1,7 @@
 ---
 title: 'GitHub Repository 정리하기'
 description: 'GitHub Repository 정리하기'
+excerpt: 'GitHub 리포지토리들이 너무 많아졌을 때 정리하는 전략을 공유합니다. 아카이빙과 README 개선 팁.'
 pubDate: 'Mar 14 2026'
 heroImage: '../../assets/blog-placeholder-4.jpg'
 ---

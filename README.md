@@ -1,23 +1,23 @@
-# Astro Starter Kit: Blog
+# Astro 블로그 스타터 키트
 
 ```sh
 npm create astro@latest -- --template blog
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **숙련된 우주비행사?** 이 파일을 삭제하세요. 즐기세요!
 
-Features:
+기능:
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+- ✅ 최소한의 스타일링 (자신만의 것으로 만드세요!)
+- ✅ 100/100 Lighthouse 성능
+- ✅ 표준 URL과 Open Graph 데이터로 SEO 친화적
+- ✅ 사이트맵 지원
+- ✅ RSS 피드 지원
+- ✅ Markdown & MDX 지원
 
-## 🚀 Project Structure
+## 🚀 프로젝트 구조
 
-Inside of your Astro project, you'll see the following folders and files:
+Astro 프로젝트 내부에서 다음과 같은 폴더와 파일을 볼 수 있습니다:
 
 ```text
 ├── public/
@@ -32,31 +32,31 @@ Inside of your Astro project, you'll see the following folders and files:
 └── tsconfig.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astro는 `src/pages/` 디렉토리에서 `.astro` 또는 `.md` 파일을 찾습니다. 각 페이지는 파일 이름에 따라 경로로 노출됩니다.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+`src/components/`에는 특별한 것이 없지만, Astro/React/Vue/Svelte/Preact 컴포넌트를 넣는 곳입니다.
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+`src/content/` 디렉토리에는 관련 Markdown 및 MDX 문서의 "컬렉션"이 포함됩니다. `getCollection()`을 사용하여 `src/content/blog/`에서 게시물을 검색하고, 선택적 스키마를 사용하여 프론트매터를 타입 체크하세요. 자세한 내용은 [Astro의 콘텐츠 컬렉션 문서](https://docs.astro.build/en/guides/content-collections/)를 참조하세요.
 
-Any static assets, like images, can be placed in the `public/` directory.
+이미지와 같은 정적 자산은 `public/` 디렉토리에 배치할 수 있습니다.
 
-## 🧞 Commands
+## 🧞 명령어
 
-All commands are run from the root of the project, from a terminal:
+모든 명령어는 프로젝트 루트의 터미널에서 실행됩니다:
 
-| Command                   | Action                                           |
+| 명령어                    | 동작                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | 의존성 설치                                     |
+| `npm run dev`             | `localhost:4321`에서 로컬 개발 서버 시작        |
+| `npm run build`           | `./dist/`에 프로덕션 사이트 빌드                 |
+| `npm run preview`         | 배포 전에 로컬에서 빌드 미리보기                 |
+| `npm run astro ...`       | `astro add`, `astro check` 같은 CLI 명령어 실행 |
+| `npm run astro -- --help` | Astro CLI 사용 도움말 얻기                       |
 
-## 👀 Want to learn more?
+## 👀 더 배우고 싶으신가요?
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[문서](https://docs.astro.build)를 확인하거나 [Discord 서버](https://astro.build/chat)에 참여하세요.
 
-## Credit
+## 크레딧
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+이 테마는 멋진 [Bear Blog](https://github.com/HermanMartinus/bearblog/)를 기반으로 합니다.

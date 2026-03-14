@@ -2,7 +2,7 @@
 title: 'GitHub Repository 정리하기'
 description: 'GitHub Repository 정리하기'
 pubDate: 'Mar 14 2026'
-heroImage: ''
+heroImage: '../../assets/blog-placeholder-4.jpg'
 ---
 
 GitHub 의 프로젝트들이 너무 많아졌다. 

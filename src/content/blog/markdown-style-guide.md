@@ -1,15 +1,15 @@
 ---
-title: 'Markdown Style Guide'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-pubDate: 'Jun 19 2024'
-heroImage: '../../assets/blog-placeholder-1.jpg'
+title: 'Markdown 스타일 가이드'
+description: 'Astro에서 Markdown 콘텐츠를 작성할 때 사용할 수 있는 기본 Markdown 구문 샘플입니다.'
+pubDate: 'March 14 2026'
+heroImage: '../../assets/Markdown-mark.png'
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+Astro에서 Markdown 콘텐츠를 작성할 때 사용할 수 있는 기본 Markdown 구문 샘플입니다.
 
-## Headings
+## 제목
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+다음 HTML `<h1>`—`<h6>` 요소는 섹션 제목의 6단계를 나타냅니다. `<h1>`은 가장 높은 섹션 레벨이고 `<h6>`은 가장 낮습니다.
 
 # H1
 
@@ -23,79 +23,79 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 
 ###### H6
 
-## Paragraph
+## 단락
 
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Images
+## 이미지
 
-### Syntax
+### 구문
 
 ```markdown
-![Alt text](./full/or/relative/path/of/image)
+![대체 텍스트](./이미지의/전체/또는/상대/경로)
 ```
 
-### Output
+### 출력
 
-![blog placeholder](../../assets/blog-placeholder-about.jpg)
+![블로그 플레이스홀더](../../assets/blog-placeholder-about.jpg)
 
-## Blockquotes
+## 인용구
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+인용구 요소는 다른 출처에서 인용된 콘텐츠를 나타내며, 선택적으로 `footer` 또는 `cite` 요소 내에 인용 출처를 포함할 수 있고, 주석이나 약어와 같은 인라인 변경 사항을 선택적으로 포함할 수 있습니다.
 
-### Blockquote without attribution
+### 속성 없는 인용구
 
-#### Syntax
+#### 구문
 
 ```markdown
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
+> **참고** 인용구 내에서 _Markdown 구문_을 사용할 수 있습니다.
 ```
 
-#### Output
+#### 출력
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
+> **참고** 인용구 내에서 _Markdown 구문_을 사용할 수 있습니다.
 
-### Blockquote with attribution
+### 속성이 있는 인용구
 
-#### Syntax
+#### 구문
 
 ```markdown
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> 메모리를 공유하여 통신하지 말고, 통신하여 메모리를 공유하라.<br>
 > — <cite>Rob Pike[^1]</cite>
 ```
 
-#### Output
+#### 출력
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
+> 메모리를 공유하여 통신하지 말고, 통신하여 메모리를 공유하라.<br>
 > — <cite>Rob Pike[^1]</cite>
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: 위 인용구는 Rob Pike의 [강연](https://www.youtube.com/watch?v=PAAkCSZUG1c)에서 발췌한 것으로, 2015년 11월 18일 Gopherfest에서 했습니다.
 
-## Tables
+## 표
 
-### Syntax
+### 구문
 
 ```markdown
-| Italics   | Bold     | Code   |
+| 이탤릭   | 굵게     | 코드   |
 | --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
+| _이탤릭_ | **굵게** | `코드` |
 ```
 
-### Output
+### 출력
 
-| Italics   | Bold     | Code   |
+| 이탤릭   | 굵게     | 코드   |
 | --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
+| _이탤릭_ | **굵게** | `코드` |
 
-## Code Blocks
+## 코드 블록
 
-### Syntax
+### 구문
 
-we can use 3 backticks ``` in new line and write snippet and close with 3 backticks on new line and to highlight language specific syntax, write one word of language name after first 3 backticks, for eg. html, javascript, css, markdown, typescript, txt, bash
+새 줄에 3개의 백틱 ```을 사용하고 스니펫을 작성한 후 새 줄에 3개의 백틱으로 닫습니다. 언어별 구문 강조를 위해 첫 3개의 백틱 뒤에 언어 이름을 한 단어로 작성하세요. 예: html, javascript, css, markdown, typescript, txt, bash
 
 ````markdown
 ```html
@@ -112,7 +112,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 ```
 ````
 
-### Output
+### 출력
 
 ```html
 <!doctype html>
@@ -127,88 +127,88 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 </html>
 ```
 
-## List Types
+## 목록 유형
 
-### Ordered List
+### 순서 있는 목록
 
-#### Syntax
+#### 구문
 
 ```markdown
-1. First item
-2. Second item
-3. Third item
+1. 첫 번째 항목
+2. 두 번째 항목
+3. 세 번째 항목
 ```
 
-#### Output
+#### 출력
 
-1. First item
-2. Second item
-3. Third item
+1. 첫 번째 항목
+2. 두 번째 항목
+3. 세 번째 항목
 
-### Unordered List
+### 순서 없는 목록
 
-#### Syntax
+#### 구문
 
 ```markdown
-- List item
-- Another item
-- And another item
+- 목록 항목
+- 다른 항목
+- 그리고 다른 항목
 ```
 
-#### Output
+#### 출력
 
-- List item
-- Another item
-- And another item
+- 목록 항목
+- 다른 항목
+- 그리고 다른 항목
 
-### Nested list
+### 중첩 목록
 
-#### Syntax
+#### 구문
 
 ```markdown
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
+- 과일
+  - 사과
+  - 오렌지
+  - 바나나
+- 유제품
+  - 우유
+  - 치즈
 ```
 
-#### Output
+#### 출력
 
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
+- 과일
+  - 사과
+  - 오렌지
+  - 바나나
+- 유제품
+  - 우유
+  - 치즈
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## 기타 요소 — abbr, sub, sup, kbd, mark
 
-### Syntax
+### 구문
 
 ```markdown
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr>는 비트맵 이미지 형식입니다.
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+세션을 종료하려면 <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd>를 누르세요.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+대부분의 <mark>도롱뇽</mark>은 야행성이며, 곤충, 벌레 및 기타 작은 생물을 사냥합니다.
 ```
 
-### Output
+### 출력
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr>는 비트맵 이미지 형식입니다.
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+세션을 종료하려면 <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd>를 누르세요.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+대부분의 <mark>도롱뇽</mark>은 야행성이며, 곤충, 벌레 및 기타 작은 생물을 사냥합니다.

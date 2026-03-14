@@ -1,7 +1,7 @@
 ---
 title: 'Markdown 스타일 가이드'
 description: 'Astro에서 Markdown 콘텐츠를 작성할 때 사용할 수 있는 기본 Markdown 구문 샘플입니다.'
-pubDate: 'March 14 2026'
+pubDate: 'Mar 14 2026'
 heroImage: '../../assets/Markdown-mark.png'
 ---
 
